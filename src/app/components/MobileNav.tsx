@@ -8,19 +8,14 @@ import Image from 'next/image';
 import { Separator } from '@/components/ui/separator';
 import NavItems from './navitem';
 import Link from 'next/link';
+import { AlignJustify } from 'lucide-react';
 
 const MobileNav = () => {
   return (
     <nav className='md:hidden'>
       <Sheet>
         <SheetTrigger className='align-middle'>
-          <Image
-            src="/menu.png"
-            alt='menu'
-            width={24}
-            height={24}
-            className='cursor-pointer'
-          />
+        <AlignJustify />
         </SheetTrigger>
         <SheetContent className='flex flex-col gap-6 bg-white md:hidden'>
           <div className="flex flex-col items-center">
