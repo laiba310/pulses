@@ -16,7 +16,7 @@ const Footer = () => {
         {/* Contact Info */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-          <p className="flex items-center gap-2"><Phone size={18} /> +92 +92 320 2727538</p>
+          <p className="flex items-center gap-2"><Phone size={18} /> +92 320 2727538</p>
           <p className="flex items-center gap-2"><Mail size={18} /> haniftraders15@gmail.com</p>
           <p className="flex items-center gap-2"><MapPin size={18} /> Karachi, Pakistan</p>
         </div>
